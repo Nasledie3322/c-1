@@ -12,3 +12,4 @@ C:\Users\user\Desktop\C#1Moh\Praktiki\function1\obj\Debug\net9.0\refint\function
 C:\Users\user\Desktop\C#1Moh\Praktiki\function1\obj\Debug\net9.0\function1.pdb
 C:\Users\user\Desktop\C#1Moh\Praktiki\function1\obj\Debug\net9.0\function1.genruntimeconfig.cache
 C:\Users\user\Desktop\C#1Moh\Praktiki\function1\obj\Debug\net9.0\ref\function1.dll
+C:\Users\user\Desktop\C#1Moh\Praktiki\function1\obj\Debug\net9.0\function1.sourcelink.json

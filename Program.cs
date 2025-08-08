@@ -1,5 +1,6 @@
 ﻿
-/*int EvenCount(int n)
+/*task1
+int EvenCount(int n)
 {
     int count = 0;
     while (n > 0)
@@ -55,7 +56,8 @@ System.Console.WriteLine("Sum:" + SumDigit(n));*/
 
 
 
-/*int Add(int a, int b)
+/*task2
+int Add(int a, int b)
 {
     return a + b;
 }
@@ -83,7 +85,8 @@ System.Console.WriteLine("Multiply:" + Multiply(a, b));
 System.Console.WriteLine("Division:" + Division(a, b));*/
 
 
-/*int MinDigit(int n)
+/*task3
+int MinDigit(int n)
 {
     int minn = 9;
     for (int i = n; i > 0; i /= 10)
@@ -117,7 +120,8 @@ System.Console.WriteLine(MinDigit(n) + " " + "+" + " " + MaxDigit(n) + " " + "="
 
 
 
-/*int Pow(int x, int y)
+/*task4
+int Pow(int x, int y)
 {
     int sum = 1;
     for (int i = 0; i < y; i++)
@@ -129,3 +133,86 @@ System.Console.WriteLine(MinDigit(n) + " " + "+" + " " + MaxDigit(n) + " " + "="
 int x = Convert.ToInt32(Console.ReadLine());
 int y = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine(Pow(x,y));*/
+
+
+/*task5
+ void swap (ref int a, ref int b)
+{
+     int cnt = 0;
+    cnt = a;
+     a = b;
+        b = cnt;
+    System.Console.WriteLine($"x = {a}");
+    System.Console.WriteLine($"y = {b}");
+ }
+
+ 
+ int a = Convert.ToInt32(Console.ReadLine());
+ int b = Convert.ToInt32(Console.ReadLine());
+ swap(ref a, ref b);*/
+
+
+
+/*task6
+void div(int a)
+{
+    for (int i = 1; i <= a; i++)
+    {
+        if (a % i == 0)
+        {
+            System.Console.Write(i + " ");
+        }
+    }   
+}
+int a = Convert.ToInt32(Console.ReadLine());
+div(a);*/
+
+
+
+
+/*task8
+int MinNumber(int a, int b, int c, int d)
+{
+    int minn = a;
+    if (b < minn)
+        minn = b;
+    if (c < minn)
+        minn = c;
+    if (d < minn)
+        minn = d;
+    return minn;
+}
+
+int a = Convert.ToInt16(Console.ReadLine());
+int b = Convert.ToInt16(Console.ReadLine());
+int c = Convert.ToInt16(Console.ReadLine());
+int d = Convert.ToInt16(Console.ReadLine());
+System.Console.WriteLine(MinNumber(a, b, c, d));*/
+
+
+/*Task9
+
+void mn(int a, int b)
+{
+    if (a > b)
+        System.Console.WriteLine(b);
+    else
+        System.Console.WriteLine(a);
+}
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+mn(a, b);*/
+
+
+/*task10
+int Max(int a, int b)
+{
+    int maxx = a;
+    if (b > maxx)
+        maxx = b;
+    return maxx;
+}
+
+int a = Convert.ToInt16(Console.ReadLine());
+int b = Convert.ToInt16(Console.ReadLine());
+System.Console.WriteLine(Max(a, b));*/
